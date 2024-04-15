@@ -1,0 +1,41 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [
+				".svn",
+				".git",
+				".hg",
+				"CVS",
+				".Trash",
+				".Trash-*",
+				"CMake",
+				"docs",
+				"sbuild",
+				"msbuild",
+				"examples"
+			]
+		},
+		{
+			"path": "C:\\Users\\mishr\\Documents\\Obsidian Vaults\\notes\\Computer Science\\Computer Graphics"
+		}
+	],
+	"build_systems": [
+		{
+			"name": "Build",
+			"target": "terminus_exec",
+			"shell_cmd": "make build"
+		},
+		{
+			"name": "Build and Run",
+			"target": "terminus_exec",
+			"shell_cmd": "make build run"
+		},
+		{
+			"name": "Build LSP Cache",
+			"target": "terminus_exec",
+			"shell_cmd": "make rebuild"
+		}
+	],
+}
