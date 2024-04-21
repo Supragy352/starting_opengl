@@ -1,6 +1,6 @@
 EXECUTABLE = ./bin/gl
 LIB_DIR = ./lib
-LIBS = -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32
+LIBS = -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32 -v
 INCLUDE_DIR = ./include
 MAIN_FILE = ./src/main.c
 FILES = ./src/glad.c
